@@ -2,10 +2,10 @@
 
 
 //user interface
-(document).ready(function(){
+$(document).ready(function(){
   $("#options").submit(function(event) {
     event.preventDefault();
-    var pettype = $('#input#options').val();
+    var pettype = $("#selectid").val();
     alert(pettype);
   });
 });
